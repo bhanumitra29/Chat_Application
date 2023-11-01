@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import io from 'socket.io-client';
 import { IoIosChatbubbles } from 'react-icons/io';
-const socket = io('http://localhost:3001');
+const socket = io('https://chat-applicationapi.onrender.com');
 
 function ClientCompo() {
   const [name, setName] = useState('');
